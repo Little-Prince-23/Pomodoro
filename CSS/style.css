@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap");
 :root {
   font-size: 10px;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   color: #bcc8c6;
 }
 
@@ -16,6 +16,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   height: 95vh;
+  background-color: black;
 }
 
 body .container {
@@ -104,13 +105,10 @@ body .container main .circle .counter-title {
   font-size: 1.2rem;
 }
 
-body .container main .circle .time {
+body .container main .circle #countdown {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-body .container main .circle .time .hour, body .container main .circle .time .minute, body .container main .circle .time .dbl-point {
   font-size: 5rem;
   color: #f33e3b;
 }
@@ -173,5 +171,9 @@ body .container .buttons {
   width: 60%;
   padding: 1rem 0;
   color: #f33e3b;
+}
+
+body .container .buttons div {
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
